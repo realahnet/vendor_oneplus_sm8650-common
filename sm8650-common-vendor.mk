@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V10-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V10-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
+    vendor/oneplus/sm8650-common/proprietary/vendor/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
     vendor/oneplus/sm8650-common/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/oneplus/sm8650-common/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
@@ -1032,6 +1033,11 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element-V1-ndk_odm \
     libGaiaClient_vnd \
     libclstc_fod_color \
+    libdolbyclstc \
+    libdolbydecoderprocessor \
+    libdolbyeglcore \
+    libdolbyencoderprocessor \
+    libdolbyottcameracontrol \
     liboemcrypto \
     libolc_vnd \
     liboplus_service \
@@ -1039,6 +1045,8 @@ PRODUCT_PACKAGES += \
     libosensenativeproxy_client \
     libprotobuf-cpp-full-3.9.1 \
     libprotobuf-cpp-lite-3.9.1 \
+    libqcodec2_dolbydecoderfilter \
+    libqcodec2_dolbyencoderfilter \
     libsecurity_event_olc_vnd \
     vendor.oplus.hardware.oplusSensor-V1-ndk \
     vendor.qti.hardware.soter@1.0 \
