@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/apdr.conf:$(TARGET_COPY_OUT_ODM)/etc/apdr.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/charge.cfg:$(TARGET_COPY_OUT_ODM)/etc/charge.cfg \
-    vendor/oneplus/sm8650-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/horae/horae_target.conf:$(TARGET_COPY_OUT_ODM)/etc/horae/horae_target.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/android.hardware.contexthub-service.qmi.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.contexthub-service.qmi.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.secure_element-service.qti.rc \
@@ -23,26 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/init/vendor.oplus.hardware.charger-V10-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.charger-V10-service.rc \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/oneplus/sm8650-common/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b00 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b01 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b02 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b03 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b04 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b05 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b06 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b07 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.b08 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_gx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_gx.mdt \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b00 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b01 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b02 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b03 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b04 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b05 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b06 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b07 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b08 \
-    vendor/oneplus/sm8650-common/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
     vendor/oneplus/sm8650-common/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/oneplus/sm8650-common/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/oneplus/sm8650-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
