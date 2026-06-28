@@ -752,8 +752,6 @@ PRODUCT_PACKAGES += \
     libtracker_6dof_impl \
     libtrustedapploader \
     libubwcp \
-    libui-stock \
-    libutils-stock \
     libvideotxr \
     libvideoutils \
     libvmmem \
