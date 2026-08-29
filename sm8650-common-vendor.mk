@@ -754,7 +754,6 @@ PRODUCT_PACKAGES += \
     libubwcp \
     libvideotxr \
     libvideoutils \
-    libvmmem \
     libvppclient \
     libvppcommon \
     libvpphcp \
